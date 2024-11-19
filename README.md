@@ -10,7 +10,7 @@
 -  Ms Sql Server
 -  Postgre SQL
 -  MongoDB
-  ## **Types od databses**##
+  ## **Types od databses ##
 - Relational
 - NoSql
   ### Relational
