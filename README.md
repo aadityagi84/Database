@@ -43,7 +43,8 @@
 - Youtube
 - Flickr
 - Pinterest
-- 
+###DAY:02###
+- **MYSQL** : is a collection of DBMS and database 
 
 
 
