@@ -44,7 +44,10 @@
 - Flickr
 - Pinterest
 ###DAY:02###
-- **MYSQL** : is a collection of DBMS and database 
+- **MYSQL** : is a collection of DBMS and database
+- Difference between sql and my sql
+- Sql is a (Structured Query Language) which is used to talk our databse
+- MYSQL is a DBMS which is uses SQL  to talk databse  
 
 
 
