@@ -47,7 +47,117 @@
 - **MYSQL** : is a collection of DBMS and database
 - Difference between sql and my sql
 - Sql is a (Structured Query Language) which is used to talk our databse
-- MYSQL is a DBMS which is uses SQL  to talk databse  
+- MYSQL is a DBMS which is uses SQL  to talk databse
+- ***There will be first query**
+  ```
+      SHOW DATABASES;
+  ```
+- this command is used to check how many databses would be held there
+- to create a database using schema
+```
+CREATE SCHEMA DATABASE_NAME
+&&
+CREATE DATABASE database-name;
+```
+- 1. CREATE DATABASE HELLODB;
+- Purpose: Creates a new database.
+- Scope: Operates at the top level of a DBMS. A database is a container for schemas, tables, views, stored procedures, etc.
+- Use Case: Used when you want to define a completely new and independent database within the DBMS.
+```
+CREATE DATABASE HELLODB;
+USE HELLODB;
+CREATE TABLE users (id INT, name VARCHAR(100));
+```
+
+
+- 2. CREATE SCHEMA HELLODB;
+- Purpose: Creates a new schema within an existing database.
+- Scope: Operates at the namespace level inside a database. A schema organizes database objects (tables, views, etc.) and provides a way to manage them logically.
+- Use Case: Used to organize database objects within an existing database, often for security or logical grouping purposes.
+- Behavior: Some DBMSs (like MySQL) treat CREATE SCHEMA as an alias for CREATE DATABASE. However, in systems like PostgreSQL or SQL Server, schemas exist within databases.
+  ```
+  CREATE SCHEMA HELLODB;
+  CREATE TABLE HELLODB.users (id INT, name VARCHAR(100));
+  ```
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Key Differences Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #007BFF;
+      color: #fff;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tr:hover {
+      background-color: #f1f7ff;
+    }
+    caption {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>Key Differences: CREATE DATABASE vs CREATE SCHEMA</caption>
+    <thead>
+      <tr>
+        <th>Aspect</th>
+        <th>CREATE DATABASE</th>
+        <th>CREATE SCHEMA</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Hierarchy</td>
+        <td>Creates a top-level container.</td>
+        <td>Creates a namespace within a database.</td>
+      </tr>
+      <tr>
+        <td>Scope</td>
+        <td>Operates globally in the DBMS.</td>
+        <td>Operates locally in a specific database.</td>
+      </tr>
+      <tr>
+        <td>Usage Context</td>
+        <td>Creates a new independent database.</td>
+        <td>Organizes objects in an existing database.</td>
+      </tr>
+      <tr>
+        <td>DBMS Dependency</td>
+        <td>Universal in most DBMSs.</td>
+        <td>Behavior varies (alias in MySQL, distinct in PostgreSQL/SQL Server).</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
+
+  
 
 
 
