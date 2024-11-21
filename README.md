@@ -120,6 +120,112 @@ CREATE TABLE users (id INT, name VARCHAR(100));
 </body>
 </html>
 
+### To use Database ###
+- use command query
+  ```
+  USE database_name
+  ```
+***To check in which database use will loacted***
+```
+SELECT database();
+```
+***To delete a databse or (DROP DATABASE)***
+```
+DROP DATABASE databsename
+```
+### Now we will discuss about tables in MYSQL###
+- a table is collection of related data held in a table format  within a databse
+  ***How to Create a Table In MYSQL***
+  ```
+  CREATE TABLE table_name(
+  id INT,
+  name VARCHAR(100)
+  )
+  ```
+  - and other one
+    ```
+    CREATE TABLE table_name(name VARCHAR(100),age INT);
+    ```
+  ### to check table will be genrate ##
+  ```
+  DESC TABLE
+  ```
+  ```
+  DESC table_name;
+  ```
+**OR**
+```
+DESCRIBE table_name;
+
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(150) UNIQUE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+ 
+</head>
+<body>
+  <table>
+    <caption>Table Structure</caption>
+    <thead>
+      <tr>
+        <th>Field</th>
+        <th>Type</th>
+        <th>Null</th>
+        <th>Key</th>
+        <th>Default</th>
+        <th>Extra</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>id</td>
+        <td>INT</td>
+        <td>NO</td>
+        <td>PRI</td>
+        <td>NULL</td>
+        <td>AUTO_INCREMENT</td>
+      </tr>
+      <tr>
+        <td>name</td>
+        <td>VARCHAR(100)</td>
+        <td>NO</td>
+        <td></td>
+        <td>NULL</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>email</td>
+        <td>VARCHAR(150)</td>
+        <td>YES</td>
+        <td>UNI</td>
+        <td>NULL</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>created_at</td>
+        <td>TIMESTAMP</td>
+        <td>YES</td>
+        <td></td>
+        <td>CURRENT_TIMESTAMP</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
+```
+
+
+
 
   
 
