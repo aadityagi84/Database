@@ -82,43 +82,7 @@ CREATE TABLE users (id INT, name VARCHAR(100));
   <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Key Differences Table</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      background-color: #f9f9f9;
-    }
-    table {
-      width: 80%;
-      border-collapse: collapse;
-      margin: 20px auto;
-      background-color: #fff;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
-    th, td {
-      border: 1px solid #ddd;
-      padding: 10px;
-      text-align: left;
-    }
-    th {
-      background-color: #007BFF;
-      color: #fff;
-    }
-    tr:nth-child(even) {
-      background-color: #f2f2f2;
-    }
-    tr:hover {
-      background-color: #f1f7ff;
-    }
-    caption {
-      margin-bottom: 10px;
-      font-size: 1.2rem;
-      font-weight: bold;
-    }
-  </style>
+
 </head>
 <body>
   <table>
