@@ -11,13 +11,13 @@ VALUES
 
  </p>
 <p style="font-size:14px:">
-INSERT INTO users (name) 
-VALUES 
-    ("RAHUL"),
-    ("AMAN"),
-    ("PRIYA"),
-    ("KAVYA"),
-    ("VIJAY");
+INSERT INTO users (name) <br>
+VALUES <br>
+    ("RAHUL"),<br>
+    ("AMAN"),<br>
+    ("PRIYA"),<br>
+    ("KAVYA"),<br>
+    ("VIJAY");<br>
 
 </p>
 
