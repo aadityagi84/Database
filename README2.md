@@ -10,7 +10,16 @@ VALUES
     (value3_1, value3_2, ...);
 
  </p>
+<p style="font-size:14px:">
+INSERT INTO users (name) 
+VALUES 
+    ("RAHUL"),
+    ("AMAN"),
+    ("PRIYA"),
+    ("KAVYA"),
+    ("VIJAY");
 
+</p>
 
 
 
