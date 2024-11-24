@@ -165,6 +165,12 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
   <table>
     <caption>Table Structure</caption>
     <thead>
