@@ -6,25 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MySQL Default Values Explanation</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        code {
-            background: #f4f4f4;
-            padding: 10px;
-            display: block;
-            margin-bottom: 10px;
-            border-left: 4px solid #0077cc;
-        }
-        .example {
-            margin-bottom: 20px;
-        }
-        h3 {
-            color: #333;
-        }
-    </style>
+  
 </head>
 <body>
     <h1>MySQL Default Values</h1>
