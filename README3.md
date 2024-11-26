@@ -6,3 +6,4 @@ name VARCHAR(100) NOT NULL
 );
   
 </Code></pre>
+ <pre><code>SELECT * FROM table_name WHERE condition1 AND condition2;</code></pre>
