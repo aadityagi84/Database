@@ -1,4 +1,9 @@
-### welcome DBS(Database MAnagement Sysytem) ----------> MYSQL
+### welcome DBS(Database MAnagement Sysytem)  MYSQL
+
+
+
+
+<br>
 - To add an AUTO_INCREMENT property to the id column in your existing table in MySQL, you can use the ALTER TABLE command. However, please note that the AUTO_INCREMENT property can only be applied to a column that is an INTEGER type and is indexed, usually as the primary key.
 - Steps to Add AUTO_INCREMENT
 - If the id column is already the primary key: You can directly modify the column to add the AUTO_INCREMENT property.
