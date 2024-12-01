@@ -107,7 +107,6 @@
             <pre><code>SELECT 'Hello' = 'hello';</code></pre>
             <p>Output: <strong>0</strong> (false)</p>
         </div>
-
         <div class="example">
             <h3>LIKE</h3>
             <p>Used for pattern matching in strings (supports `%` for any number of characters, `_` for a single character).</p>
